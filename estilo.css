@@ -1,0 +1,51 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff; /* Azul */
+    padding: 10px 0;
+    text-align: center; /* Centraliza o conteúdo do header */
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block; /* Transforma a lista em bloco inline para centralizar */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Preto */
+    text-decoration: none;
+    padding: 10px 20px; /* Espaçamento interno para os botões */
+    border: 1px solid #fff; /* Borda branca nos botões */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
